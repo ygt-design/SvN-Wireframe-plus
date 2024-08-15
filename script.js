@@ -15,8 +15,8 @@ $(document).ready(function () {
                 <div class="info-content-sub-header"></div>
             </div>
             
-            <img src="../assets/images/contentImages/image_four.png"">
-            <img src="../assets/images/contentImages/image_five.png"">
+            <img src="../assets/images/contentImages/imageFour.png"">
+            <img src="../assets/images/contentImages/imageFive.png"">
   
             <div class="info-content--lines">  
                 <div class="info-content-sub-header"></div>
