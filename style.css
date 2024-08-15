@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'GTSuper';
-    src: url('../assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
+    src: url('./assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'GTSuper-light';
-    src: url('../assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
+    src: url('./assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('../assets/fonts/CalibreRegular.otf') format('woff2');
+    src: url('./assets/fonts/CalibreRegular.otf') format('woff2');
 }
 
 *{
