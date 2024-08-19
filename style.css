@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'GTSuper';
-    src: url('../assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
+    src: url('assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'GTSuper-light';
-    src: url('../assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
+    src: url('assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('../assets/fonts/CalibreRegular.otf') format('woff2');
+    src: url('assets/fonts/CalibreRegular.otf') format('woff2');
 }
 
 *{
@@ -66,7 +66,7 @@ nav{
 .logo{
     width: 110px;
     height: 50px;
-    background-image: url('../assets/images/svnLogo.png');
+    background-image: url('assets/images/svnLogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 999;
@@ -306,7 +306,7 @@ footer{
 footer .logo-bottom{
     width: 110px;
     height: 50px;
-    background-image: url('../assets/images/svnLogo.png');
+    background-image: url('assets/images/svnLogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     filter: invert(1);
