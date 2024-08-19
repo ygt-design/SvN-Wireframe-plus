@@ -15,8 +15,8 @@ $(document).ready(function () {
                 <div class="info-content-sub-header"></div>
             </div>
             
-            <img src="../assets/images/contentImages/imageFour.png"">
-            <img src="../assets/images/contentImages/imageFive.png"">
+            <img src="assets/images/contentImages/imageFour.png"">
+            <img src="assets/images/contentImages/imageFive.png"">
   
             <div class="info-content--lines">  
                 <div class="info-content-sub-header"></div>
@@ -25,9 +25,9 @@ $(document).ready(function () {
                 <div class="info-content-sub-header"></div>
             </div>
   
-            <img src="../assets/images/contentImages/image_six.png"">
-            <img src="../assets/images/contentImages/image_eight.png"">
-            <img src="../assets/images/contentImages/image_nine.png"">
+            <img src="assets/images/contentImages/image_six.png"">
+            <img src="assets/images/contentImages/image_eight.png"">
+            <img src="assets/images/contentImages/image_nine.png"">
   
             <div class="info-content--lines">  
                 <div class="info-content-sub-header"></div>
@@ -36,10 +36,10 @@ $(document).ready(function () {
                 <div class="info-content-sub-header"></div>
             </div>
   
-            <img src="../assets/images/contentImages/image_ten.png"">
-            <img src="../assets/images/contentImages/image_eleven.png"">
-            <img src="../assets/images/contentImages/image_twelve.png"">
-            <img src="../assets/images/contentImages/image_thirteen.png"">
+            <img src="assets/images/contentImages/image_ten.png"">
+            <img src="assets/images/contentImages/image_eleven.png"">
+            <img src="assets/images/contentImages/image_twelve.png"">
+            <img src="assets/images/contentImages/image_thirteen.png"">
   
             <div class="info-content--lines">  
                 <div class="info-content-sub-header"></div>
@@ -48,10 +48,10 @@ $(document).ready(function () {
                 <div class="info-content-sub-header"></div>
             </div>
   
-            <img src="../assets/images/contentImages/image_fourteen.png"">
-            <img src="../assets/images/contentImages/image_fifteen.png"">
-            <img src="../assets/images/contentImages/image_sixteen.png"">
-            <img src="../assets/images/contentImages/image_seventeen.png"">
+            <img src="assets/images/contentImages/image_fourteen.png"">
+            <img src="assets/images/contentImages/image_fifteen.png"">
+            <img src="assets/images/contentImages/image_sixteen.png"">
+            <img src="assets/images/contentImages/image_seventeen.png"">
   
             <div class="info-content--lines">  
                 <div class="info-content-sub-header"></div>
@@ -60,8 +60,8 @@ $(document).ready(function () {
                 <div class="info-content-sub-header"></div>
             </div>
   
-            <img src="../assets/images/contentImages/image_eighteen.png"">
-            <img src="../assets/images/contentImages/image_nineteen.png"">
+            <img src="assets/images/contentImages/image_eighteen.png"">
+            <img src="assets/images/contentImages/image_nineteen.png"">
   
             <div class="info-footer">
                   <div class="info-footer--line">
