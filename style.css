@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'GTSuper';
-    src: url('./assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
+    src: url('../assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'GTSuper-light';
-    src: url('./assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
+    src: url('../assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('./assets/fonts/CalibreRegular.otf') format('woff2');
+    src: url('../assets/fonts/CalibreRegular.otf') format('woff2');
 }
 
 *{
@@ -66,7 +66,7 @@ nav{
 .logo{
     width: 110px;
     height: 50px;
-    background-image: url('./assets/images/svnLogo.png');
+    background-image: url('../assets/images/svnLogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 999;
@@ -188,25 +188,23 @@ nav{
 
 
 .hero-one{
-    background-image: url("https://s3-alpha-sig.figma.com/img/916f/dcee/2872875912bddfe4bc7feb5a37703c3a?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j8GA6eDhRcV4h7XtSggOyHGkOklMq2HuuFs5ZWPAQKTUGW423UBCjvPUqYyOy~GLQM2z21ypsmSO5PLanhrEdld5UndM94Ml2eXOEjYfvOZTX6zPeCzJofXljQAzBNN3HI~fRCzQQBW-CxsMDgQ6sAFRTLb3mIbL2G3fhgm2CE-Gvvk4TfNxXTsQ3gaiKeScAQT6YaTMcdsXm6ooUXaaNL-omLScP1F7qU8AaHOX47cqk32OyAhNswbx3OpEfTLlCoD3ue3NIzGFn4eu3gIr50wX0VBagkjydNow7z8U59Dt-ztzPYNgjn0saCK3~HkgNmkMCR7SqHzrv0wRhst5cg__");
+    background-image: url("./imageAssets/one.jpg");
 }
 
 .hero-two{
-    background-size: 166%;
-    background-image: url("https://s3-alpha-sig.figma.com/img/44b7/3ff9/be6e814cbd785ebf085a1f005b1979dd?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KVxMvp2fVh4wsQWEnm4LMW38-Uzh6TIoGpiNgCZFemhVvvBDdZnLr-iAauX4xg99B74mn0eo6So-B1SB-f~J8NEmlwcAtWg1zNIRkiyOE9KVy1BB5~oZY8hvMUDUUi0InK0AmurFTdQsa34L4K2vkzUZ4cYlR-AkNqJMtbC76rF1kakM3F-9clX0CfC2Z8AKAPxl7eENn7dynvIvhg7Z6KAuak4Ld8XiSTEp3m2U1ujF6nKM2HgKZh3gzTzwzpCexvl3F84kZ8uqjwE5CPxjaS4cdlYgZjq6s8gm40vCfux9WT26wZur2DBKxnTvTfIJHsUvrXpZuC6CI2QkZ7UzDg__");
+    background-image: url("./imageAssets/two.jpg");
 }
 
 .hero-three{
-    background-image: url("https://s3-alpha-sig.figma.com/img/ff60/7ee7/ce1825d8c1469da033f92e85c4387b41?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I4vTPin0m0fQj2CkymYJqEL0V-EM-2eDxhzIH40sYHZ7ZpvyfP2QZOIeoKjubv6cXRoAe~iE2ly1ynz5IyrZmDcvaggzdF7LcFabfYSQxalCWfmL1h6ZtffjAVV19su~V0oYzSWSoDL3ypXowcNZmGvU5UjPajiWSq~3i6fAq0vOXP4EuvJcNnF9hMwsMpAtgDOoUomWFi7eqnftm2cld1X~k7u8JnuYUImYD75ad9WbT4I-yyMTHWBnsI-zpE7LVOOf06qeV8A8o2bCMKaH87pB6INO-erINK-p6jn~Ni0NqFyS3YQSXoHoysLu5JVk29r4c7~jYS5o6UYAuSzEQg__");
+    background-image: url("./imageAssets/three.jpg");
 }
 
 .hero-four{ 
-    background-position: bottom 20% right 0px;
-    background-image: url("https://s3-alpha-sig.figma.com/img/7d78/3efc/365e4a4cef634c62295996bc4d425568?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RZNNlNBxJJ9zhtYxBxFC8qg6~v-IKWRfvbf0jvp3Dy~OReZ0Bv~iFxicA6CrEYmIzP5pLAnFtj4hHwzL8RR-qt3ewHuuBH0h8KGrGZhQzKvMiHYy98aNRWM7LfeeKNZcTXLQk~kbnplet0Yfaa637iXXjqQJUw~iet~Xu-WT7kZLWyJnJxDwjz-cXU3qnTxCwfz~SXt6SXWI~LMGkFnxqoX4mM8EcrlGxC3miGYZ5u2fA04Hdgr1yCWJTaVAtEavIYVpc2dcLL9Qz7xOs3jRKfYF7JCN1VN0Eo9NcQtzS5fw8Uq4Phcp5YkSCijsU99CuIAlbTk7VjJD-wf~Uk8QPQ__");
+    background-image: url("./imageAssets/four.jpg");
 }
 
 .hero-five{
-    background-image: url("https://s3-alpha-sig.figma.com/img/6bea/986c/dfe9e7566d94b671c4cb23dce3a42b26?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YU3cgPvyD3dBH19USMPrpSoRqXBjzyO4EAw3PTDfoM6Pym4F76aC5doJOCvncnDAgKOQmQ-AMKr9of-SF05h6z8JI8qKZT2QOyP9P3Pel1~jiJZh4dbHwBf5~9ywFwSDfwgHhRlp9B6UA3EOFw8tlPCS8iQjT7H1zMJr~0kf2HwwOrKBSrfQEWrs6rumhxjUGNx6GHOsjjK-YB-tOIPmwxsUtLptEyzO-BG5FkPCUWHfFvM9VdcDMJZaMPyC4QVtPnGmd-DGqQOwMcnjYAN-Xgy3PIIIGdZYx9NpudaTCiB7hAML2~-ivELO~R981Tcw27xcm3qn-DCsE77z1WEMzw__");
+    background-image: url("./imageAssets/five.jpg");
 }
 
 .hero-content{
@@ -308,7 +306,7 @@ footer{
 footer .logo-bottom{
     width: 110px;
     height: 50px;
-    background-image: url('./assets/images/svnLogo.png');
+    background-image: url('../assets/images/svnLogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     filter: invert(1);
@@ -353,14 +351,14 @@ footer .logo-bottom{
 }
 
 .info-content{
-    padding: var(--column-gap);
+    padding: 13px;
     padding-top: 90px;
 
 }
 
 .info-content img{
     width: 100%;
-    margin-bottom: var(--column-gap);
+    margin-bottom: 10px;
 }
 
 .info-content--lines{
@@ -392,4 +390,10 @@ footer .logo-bottom{
 .info-footer--line .info-content-line--header,
 .info-footer--line .info-content-line-sub-header{
     margin-bottom: 10px;
+}
+
+.info-footer :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
