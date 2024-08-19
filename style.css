@@ -188,23 +188,23 @@ nav{
 
 
 .hero-one{
-    background-image: url("./imageAssets/one.jpg");
+    background-image: url("imageAssets/one.jpg");
 }
 
 .hero-two{
-    background-image: url("./imageAssets/two.jpg");
+    background-image: url("imageAssets/two.jpg");
 }
 
 .hero-three{
-    background-image: url("./imageAssets/three.jpg");
+    background-image: url("imageAssets/three.jpg");
 }
 
 .hero-four{ 
-    background-image: url("./imageAssets/four.jpg");
+    background-image: url("imageAssets/four.jpg");
 }
 
 .hero-five{
-    background-image: url("./imageAssets/five.jpg");
+    background-image: url("imageAssets/five.jpg");
 }
 
 .hero-content{
