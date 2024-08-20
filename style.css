@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'GTSuper';
-    src: url('assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
+    src: url('./assets/fonts/GT-Super-Display-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'GTSuper-light';
-    src: url('assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
+    src: url('./assets/fonts/GT-Super-Display-Light.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('assets/fonts/CalibreRegular.otf') format('woff2');
+    src: url('./assets/fonts/CalibreRegular.otf') format('woff2');
 }
 
 *{
@@ -66,7 +66,7 @@ nav{
 .logo{
     width: 110px;
     height: 50px;
-    background-image: url('assets/images/svnLogo.png');
+    background-image: url('../assets/images/svnLogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 999;
@@ -111,8 +111,10 @@ nav{
 
 .menu-intro{
     padding: 15%;
+    padding-top: 13%;
+    padding-left: 18%;
     padding-bottom: 9%;
-    width: 100%;
+    width: 95%;
     font-size: 50px;
     color: white;
     text-align: center;
@@ -188,23 +190,23 @@ nav{
 
 
 .hero-one{
-    background-image: url("imageAssets/one.jpg");
+    background-image: url("./imageAssets/one.jpg");
 }
 
 .hero-two{
-    background-image: url("imageAssets/two.jpg");
+    background-image: url("./imageAssets/two.jpg");
 }
 
 .hero-three{
-    background-image: url("imageAssets/three.jpg");
+    background-image: url("./imageAssets/three.jpg");
 }
 
 .hero-four{ 
-    background-image: url("imageAssets/four.jpg");
+    background-image: url("./imageAssets/four.jpg");
 }
 
 .hero-five{
-    background-image: url("imageAssets/five.jpg");
+    background-image: url("./imageAssets/five.jpg");
 }
 
 .hero-content{
@@ -306,7 +308,7 @@ footer{
 footer .logo-bottom{
     width: 110px;
     height: 50px;
-    background-image: url('assets/images/svnLogo.png');
+    background-image: url('../assets/images/svnLogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     filter: invert(1);
